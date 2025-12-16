@@ -1,28 +1,26 @@
 /* global MODULE_SOURCES selectedVersion modules fetchModulesAndResources initTrack createModuleCard loadModuleCategories updateIncludedModules, getIncludedModules */
 
 const SUPPORTERS = [
+	'BPK001',
+	'Pelik_',
+	'Darkest9469V2',
+	'Levertion',
 	'kruthers',
-	'Hero29',
-	'TransportLayer',
-	'Luexa',
-	'Dantifreeze',
-	'TheEpyonProject',
-	'gjunnila',
-	'Jackohhh',
 	'kyrkis',
 	'miraku_memo',
-	'ShadowSlam',
-	'SpecialBuilder32',
-	'suppergerrie2',
-	'Modulorium',
-	'R3AP3R_exe',
 	'venomousbirds',
-	'SpiderRobotMan',
-	'MightyBurger',
-	'Levertion',
-	'AnkaEs',
-	'Darkest9469',
-	'Frienderman'
+	'TheEpyonProject',
+	'Modulorium',
+	'Hozz',
+	'Jackohhh',
+	'luegxrl',
+	'ShadowSlam',
+	'TransportLayer',
+	'SpecialBuilder32',
+	'Hero29',
+	'Dantifreeze',
+	'suppergerrie2',
+	'SpiderRobotMan'
 ]
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -48,7 +46,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			});
 
 			for (const supporter of SUPPORTERS) {
-				$('.supporters-list').append(`<img src="https://gm4.co/images/supporters/16.php?username=${supporter}" alt="${supporter}" title="${supporter}" />`)
+				$('.supporters-list').append(`<img src="https://mc-heads.net/avatar/${supporter}/16" alt="${supporter}" title="${supporter}" />`)
 			}
 
 			// Browse tab

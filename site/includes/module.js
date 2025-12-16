@@ -14,7 +14,7 @@ const COLLAPSE_ARROW = '<svg xmlns="http://www.w3.org/2000/svg" height="24" view
 
 const modules = new Map();
 // eslint-disable-next-line prefer-const
-let selectedVersion = '1.21';
+let selectedVersion = '1.21.5';
 
 /**
  * Fetch modules from the datapacks and resourcepacks repos.
@@ -151,7 +151,7 @@ function createSquircle(image, text, href, target) {
 function createVersionButton(version, moduleId, text) {
 	const versionName = MODULE_SOURCES[0].versions.find(v => v.id === version).name
 	const url = getModuleDownload(version, moduleId);
-	const el = createSquircle(DOWNLOAD_ICON, text || (versionName ?? version), url, 'download_frame');
+	const el = createSquircle(DOWNLOAD_ICON, text || (versionName ?? version), url);
 	if (version === selectedVersion) {
 		el.classList.add('selectedVersion');
 	}

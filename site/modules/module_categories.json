@@ -3,6 +3,10 @@
     {
       "title": "New Modules",
       "modules": [
+        "lively_lily_pads",
+        "reeling_rods",
+        "survival_refightalized",
+        "monsters_unbound",
         "blossoming_pots",
         "guidebook",
         "zauber_cauldrons",
@@ -20,10 +24,7 @@
         "lightning_in_a_bottle",
         "shroomites",
         "dripleaf_filters",
-        "chest_boats",
-        "animi_shamir",
-        "audere_shamir",
-        "iacio_shamir"
+        "animi_shamir"
       ]
     },
     {
@@ -113,8 +114,9 @@
         "mysterious_midnights",
         "midnight_menaces",
         "pig_tractors",
+        "survival_refightalized",
+        "monsters_unbound",
         "undead_players",
-        "combat_expanded",
         "orb_of_ankou"
       ]
     },
@@ -122,6 +124,7 @@
       "title": "Builder's Paradise",
       "order": "shuffled",
       "modules": [
+        "lively_lily_pads",
         "blossoming_pots",
         "better_armour_stands",
         "particles_pack",
